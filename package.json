@@ -2,5 +2,23 @@
   "dependencies": {
     "three": "^0.149.0",
     "vanta": "^0.5.24"
-  }
+  },
+  "name": "package",
+  "version": "1.0.0",
+  "description": "this is a test site",
+  "main": "js.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobkiesel/vanta.git"
+  },
+  "author": "jacob kiesel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacobkiesel/vanta/issues"
+  },
+  "homepage": "https://github.com/jacobkiesel/vanta#readme"
 }
