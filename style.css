@@ -1,7 +1,62 @@
-html,body{
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    0% {
+        transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+  }
+
+
+
+
+*{
+    font-family: 'Oxygen Mono', monospace; 
+}
+html{
+    background-color: #2A213E;
+}
+body{
     margin: 0;
+    width: 100vw ; height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin: 0;
+    color: rgb(216, 197, 184);
+    grid-column: 2;
+    grid-row: 1;
+}
+h2{
+    margin: 0;
+    color: rgb(216, 197, 184);
+    grid-column: 2;
+    grid-row: 2;
+}
+p{
+    margin:0;
+    padding-top: 10px;
+    color: rgb(216, 197, 184);
+    grid-column: 2;
+    grid-row: 3;
+}
+#container{
+    display: grid;
+    animation: fadeIn 5s;
+    grid: auto-flow / 1fr;
+}
+.icon-box{
+    grid-column: 1;
+    grid-row: 1;
+}
+i{
+    justify-self: end;
 }
 
-div {
-    width: 100vw; height: 100vh;
-  }
+/* 0x16113c 
