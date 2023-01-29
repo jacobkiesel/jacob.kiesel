@@ -19,21 +19,26 @@
     <title>Document</title>
   </head>
   <body id="your-element-selector">
-    <div class="icon-box">
-      <i class="fa-solid fa-code"></i><br />
-      <i class="fa-solid fa-code"></i><br />
-      <i class="fa-solid fa-code"></i><br />
-      <i class="fa-solid fa-code"></i><br />
-      <i class="fa-solid fa-code"></i><br />
-    </div>
+    <div class="icon-box"></div>
     <div id="container">
       <h1>Hello! Hope you're well</h1>
       <h2>My name is Jacob.</h2>
       <p>
         I make stuff on the web. If you would like to<br />
         see some of that, feel free to visit the <br />
-        links to the left<br /><br />
+        links below<br /><br />
+        <div class="icon-box">
+        <i class="fa-solid fa-code"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-solid fa-file-pdf"></i></div>
+ 
       </p>
+ 
+    </div>
+    <div class="modal1 close"><p class="modal-content">here is a dummy thing
+      <i class="fa-solid fa-x"></i>
+      </p>  
     </div>
   </body>
   <footer>
@@ -42,7 +47,7 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"
     ></script>
     <script defer src="p5.min.js"></script>
-    <script defer src="vanta.topology.min.js"></script>
-    <script defer src="js.js"></script>
+
+    <script type="module" defer src="js.js"></script>
   </footer>
 </html>
