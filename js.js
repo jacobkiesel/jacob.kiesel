@@ -1,5 +1,6 @@
 import TRUNK from "./node_modules/vanta/src/vanta.trunk.js";
 
+"use strict";
 
 TRUNK({
   el: "#your-element-selector",
