@@ -1,4 +1,4 @@
-import TRUNK from "./node_modules/vanta/src/vanta.trunk.js";
+import TRUNK from "./vanta.trunk.js";
 
 "use strict";
 
