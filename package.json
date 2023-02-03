@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jacobkiesel/vanta.git"
+    "url": "git+https://github.com/jacobkiesel/jacobkiesel.git"
   },
   "author": "jacob kiesel",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jacobkiesel/vanta/issues"
+    "url": "https://github.com/jacobkiesel/jacobkiesel/issues"
   },
-  "homepage": "https://github.com/jacobkiesel/vanta#readme"
+  "homepage": "https://github.com/jacobkiesel/jacobkiesel#readme"
 }
