@@ -1,5 +1,5 @@
 import * as p5 from "/p5.min.js"
-import * as THREE from '/node_modules/three/src/Three.js';
+import * as THREE from '/jacopkiesel/node_modules/three/src/Three.js';
 import TRUNK from "/node_modules/vanta/src/vanta.trunk.js"
 
 "use strict";
